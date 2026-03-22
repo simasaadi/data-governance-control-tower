@@ -1,0 +1,8 @@
+request_id,request_date,service_type,status,postal_code
+100245,2026-01-15,Missed Pickup,Closed,M5V 2T6
+100246,2026-01-16,Bin Repair,In Progress,M4B 1B3
+100247,2026-01-16,Complaint,Open,M6G 1A1
+100248,2026-01-17,Inquiry,Closed,M5A 1A1
+100249,2026-01-18,Missed Pickup,Cancelled,M4C 1M2
+100250,2026-01-18,Wrong Type,Open,M5N 2K1
+,2026-01-19,Complaint,Closed,M5P 2L4

@@ -1,0 +1,6 @@
+issue_id,issue_date,asset_id,issue_type,severity,description,root_cause,owner,status,target_resolution_date
+DQ001,2026-02-05,DA001,Data Quality,High,Null request_id found in service request extract,Missing validation at data entry,Service Performance Analyst,Open,2026-03-15
+DQ002,2026-02-07,DA001,Data Quality,Medium,Unexpected service_type value in source data,Accepted values rule not enforced,CRM Support Lead,In Progress,2026-03-20
+DQ003,2026-02-09,DA002,Data Quality,High,Negative labor_hours detected in work orders,Manual entry error,Maintenance Data Analyst,Open,2026-03-18
+DG001,2026-02-11,DA004,Access Governance,Medium,Access approval rationale not consistently documented,Non-standard approval workflow,Operations Manager,In Progress,2026-03-25
+DG002,2026-02-13,DA005,Metadata,Low,Reporting metric definition missing from glossary,Documentation gap,BI Analyst,Open,2026-03-30

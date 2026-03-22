@@ -1,0 +1,6 @@
+rule_id,asset_id,rule_name,column_name,dimension,severity,threshold,pass_rate,rows_tested,failed_rows,passed,message
+R001,DA001,request_id_not_null,request_id,completeness,high,1.0,0.8571,7,1,False,Checked for null or blank values
+R002,DA001,status_allowed_values,status,validity,high,1.0,1.0,7,0,True,"Checked accepted values: ['Cancelled', 'Closed', 'In Progress', 'Open']"
+R003,DA002,labor_hours_non_negative,labor_hours,validity,medium,1.0,0.8,5,1,False,Checked minimum value >= 0.0
+R004,DA005,metric_value_in_range,metric_value,validity,high,1.0,0.75,4,1,False,Checked value between 0.0 and 100.0
+R005,DA001,service_type_allowed_values,service_type,validity,medium,1.0,0.8571,7,1,False,"Checked accepted values: ['Bin Repair', 'Complaint', 'Inquiry', 'Missed Pickup']"

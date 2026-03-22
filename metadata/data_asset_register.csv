@@ -1,0 +1,6 @@
+asset_id,asset_name,domain,source_system,data_owner,data_steward,data_custodian,data_classification,criticality,refresh_frequency,record_count,retention_period,lineage_status,quality_rule_coverage,status
+DA001,Customer Service Requests,Operations,CRM,Director Service Operations,Service Performance Analyst,Enterprise Data Platform,Internal,High,Daily,125000,7 years,Partial,Medium,Active
+DA002,Work Order History,Asset Management,Maximo,Manager Asset Management,Maintenance Data Analyst,Enterprise Applications,Internal,High,Daily,485000,10 years,Partial,High,Active
+DA003,Fleet Maintenance Logs,Fleet,M5 Fleet,Manager Fleet Services,Fleet Reporting Analyst,Fleet Systems Team,Internal,Medium,Weekly,92000,7 years,None,Low,Active
+DA004,Route Operations GPS,Operations,Route Optimization Platform,Manager Collection Operations,Routing Analyst,GIS and Spatial Services,Confidential,High,Daily,310000,5 years,Partial,Medium,Active
+DA005,Public Dashboard Metrics,Reporting,BI Semantic Layer,Manager Performance and Reporting,BI Analyst,Analytics Engineering,Public,Medium,Weekly,3500,3 years,Complete,High,Active

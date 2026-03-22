@@ -1,0 +1,9 @@
+kpi_name,kpi_value,kpi_unit,reporting_period,threshold,status
+Metadata completeness,68,Percent,2026-Q1,80,At Risk
+Data quality pass rate,94,Percent,2026-Q1,95,At Risk
+Open critical issues,2,Count,2026-Q1,0,At Risk
+Access request turnaround,4,Days,2026-Q1,5,On Track
+Lineage coverage,60,Percent,2026-Q1,75,At Risk
+Glossary coverage,72,Percent,2026-Q1,85,At Risk
+AI use cases reviewed,3,Count,2026-Q1,3,On Track
+Policy exceptions open,1,Count,2026-Q1,0,At Risk

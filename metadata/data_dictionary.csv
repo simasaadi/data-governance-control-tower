@@ -1,0 +1,13 @@
+asset_id,column_name,data_type,business_definition,allowed_values,nullable,example_value
+DA001,request_id,integer,Unique identifier for the service request,,No,100245
+DA001,request_date,date,Date the service request was created,,No,2026-01-15
+DA001,service_type,text,Type of requested service,"Missed Pickup; Bin Repair; Complaint; Inquiry",No,Missed Pickup
+DA001,status,text,Current status of the request,"Open; In Progress; Closed; Cancelled",No,Closed
+DA001,postal_code,text,Postal code linked to the request,,Yes,M5V 2T6
+DA002,work_order_id,integer,Unique identifier for the work order,,No,700981
+DA002,asset_id,text,Identifier of the asset tied to the work order,,No,TRK-441
+DA002,completion_date,date,Date the work order was completed,,Yes,2026-02-03
+DA002,labor_hours,decimal,Total labour hours recorded for the work order,,Yes,4.5
+DA005,metric_name,text,Name of the published KPI,,No,On-Time Completion Rate
+DA005,metric_value,decimal,Reported value of the KPI for the reporting period,,No,96.4
+DA005,reporting_period,text,Time period the metric refers to,,No,2026-Q1

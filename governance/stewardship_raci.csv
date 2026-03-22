@@ -1,0 +1,10 @@
+process_area,data_owner,data_steward,data_custodian,business_analyst,security_privacy_lead
+Asset definition,A,R,C,C,I
+Business glossary,A,R,I,C,I
+Data quality rules,A,R,C,C,I
+Issue management,A,R,C,C,I
+Access approval,A,C,C,I,R
+Metadata maintenance,A,R,C,C,I
+Dashboard publication,A,R,C,R,I
+AI use case intake,A,R,C,C,R
+AI risk review,A,C,C,I,R

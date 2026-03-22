@@ -1,0 +1,5 @@
+request_id,request_date,requestor_role,data_asset,purpose,access_type,contains_sensitive_data,decision,decision_owner,rationale,expiry_date,status
+AR001,2026-02-10,BI Analyst,Public Dashboard Metrics,Monthly KPI reporting,Read,No,Approved,Manager Performance and Reporting,Approved for standard internal reporting,,Active
+AR002,2026-02-12,External Consultant,Route Operations GPS,Route optimization assessment,Read,Yes,Conditionally Approved,Director Service Operations,Approved with limited fields and no direct identifiers,2026-06-30,Active
+AR003,2026-02-14,Operations Supervisor,Customer Service Requests,Service issue follow-up,Read,Yes,Approved,Director Service Operations,Operational need with role-based access,,Active
+AR004,2026-02-18,Intern,Fleet Maintenance Logs,Exploratory analysis,Read,No,Denied,Manager Fleet Services,No business need established,,Closed

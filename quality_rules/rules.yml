@@ -1,0 +1,58 @@
+rules:
+  - rule_id: R001
+    asset_id: DA001
+    rule_name: request_id_not_null
+    column_name: request_id
+    dimension: completeness
+    check_type: not_null
+    threshold: 1.0
+    severity: high
+
+  - rule_id: R002
+    asset_id: DA001
+    rule_name: status_allowed_values
+    column_name: status
+    dimension: validity
+    check_type: accepted_values
+    allowed_values:
+      - Open
+      - In Progress
+      - Closed
+      - Cancelled
+    threshold: 1.0
+    severity: high
+
+  - rule_id: R003
+    asset_id: DA002
+    rule_name: labor_hours_non_negative
+    column_name: labor_hours
+    dimension: validity
+    check_type: min_value
+    min_value: 0
+    threshold: 1.0
+    severity: medium
+
+  - rule_id: R004
+    asset_id: DA005
+    rule_name: metric_value_in_range
+    column_name: metric_value
+    dimension: validity
+    check_type: between
+    min_value: 0
+    max_value: 100
+    threshold: 1.0
+    severity: high
+
+  - rule_id: R005
+    asset_id: DA001
+    rule_name: service_type_allowed_values
+    column_name: service_type
+    dimension: validity
+    check_type: accepted_values
+    allowed_values:
+      - Missed Pickup
+      - Bin Repair
+      - Complaint
+      - Inquiry
+    threshold: 1.0
+    severity: medium

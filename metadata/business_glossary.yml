@@ -1,0 +1,40 @@
+terms:
+  - term: Data Owner
+    definition: Accountable business leader responsible for decisions about the data asset.
+    domain: Governance
+    approved: true
+
+  - term: Data Steward
+    definition: Operational role responsible for maintaining data quality, definitions, and day-to-day governance practices.
+    domain: Governance
+    approved: true
+
+  - term: Data Custodian
+    definition: Technical role responsible for storage, movement, protection, and platform administration.
+    domain: Governance
+    approved: true
+
+  - term: Critical Data Element
+    definition: Data element that is essential for reporting, operational decisions, regulatory needs, or service delivery.
+    domain: Data Quality
+    approved: true
+
+  - term: Data Classification
+    definition: Assigned sensitivity level that determines how data should be accessed, shared, and protected.
+    domain: Access and Privacy
+    approved: true
+
+  - term: Lineage
+    definition: Documented flow of data from source through transformation to reporting or downstream use.
+    domain: Metadata
+    approved: true
+
+  - term: Access Decision Log
+    definition: Record of non-routine or sensitive access and sharing decisions, including rationale and approvers.
+    domain: Access and Privacy
+    approved: true
+
+  - term: AI Use Case
+    definition: A defined business application of an AI system, model, or generative AI capability.
+    domain: AI Governance
+    approved: true
