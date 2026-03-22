@@ -1,4 +1,69 @@
+# Data Governance Control Tower
 
+[![Open Live Dashboard](https://img.shields.io/badge/Open-Live_Dashboard-blue?style=for-the-badge)](https://sima-governance-tower.streamlit.app)
+
+**Live app:** https://sima-governance-tower.streamlit.app
+
+An operational data governance portfolio project that demonstrates how governance can be translated into concrete controls, measurable KPIs, stewardship structures, issue management workflows, and a lightweight AI governance layer.
+
+## Dashboard Snapshot
+
+![Overview dashboard](screenshots/overview.png)
+
+## Why this project exists
+
+Many governance discussions stay at the policy level. This project shows a more practical operating model by making governance visible through working artifacts, quality checks, dashboards, and decision logs.
+
+The repository is designed to simulate a governance control tower for a business environment with multiple operational and reporting assets. It focuses on day-to-day governance execution rather than governance theory alone.
+
+## What this project demonstrates
+
+- Data asset inventory and stewardship accountability
+- Business glossary and data dictionary structure
+- Data quality rule design and executable validation checks
+- Governance issue logging and escalation visibility
+- Access governance decision logging
+- Governance KPI monitoring
+- AI use case registration and risk review
+- Lightweight responsible AI governance documentation
+- A dashboard for executive and operational governance monitoring
+
+## Dashboard modules
+
+### 1. Overview
+Provides an executive summary of governance posture, including:
+- governed assets in scope
+- average data quality pass rate
+- open high-severity issues
+- AI use cases under review
+
+### 2. Data Quality
+Shows:
+- configured quality controls
+- pass and fail outcomes
+- failed rows by quality dimension
+- average pass rate by asset
+
+### 3. Issues
+Shows:
+- open governance and data quality issues
+- severity distribution
+- issue type distribution
+- issue ownership and target resolution dates
+
+### 4. Assets
+Shows:
+- governed asset inventory
+- classification mix
+- criticality profile
+- lineage documentation coverage
+
+### 5. AI Governance
+Shows:
+- AI use case register
+- risk-level profile
+- review status
+- AI risk assessment log
 
 ## Repository structure
 
@@ -14,110 +79,81 @@ data-governance-control-tower/
 +-- dashboards/
 +-- docs/
 +-- screenshots/
-```
+Key artifacts included
+Metadata
+metadata/data_asset_register.csv
+metadata/business_glossary.yml
+metadata/data_dictionary.csv
+Governance operations
+governance/access_decision_log.csv
+governance/issue_log.csv
+governance/stewardship_raci.csv
+governance/governance_kpis.csv
+Data quality
+quality_rules/rules.yml
+quality_rules/checks.py
+data/raw/*.csv
+data/curated/quality_check_results.csv
+AI governance
+ai_governance/ai_use_case_register.csv
+ai_governance/ai_risk_assessment.csv
+ai_governance/model_card_template.md
+Documentation
+docs/architecture.md
+docs/lineage.md
+docs/controls_framework.md
+Dashboard Preview
+Data Quality
 
-## Key artifacts included
+Issues
 
-### Metadata
-- `metadata/data_asset_register.csv`
-- `metadata/business_glossary.yml`
-- `metadata/data_dictionary.csv`
+Assets
 
-### Governance operations
-- `governance/access_decision_log.csv`
-- `governance/issue_log.csv`
-- `governance/stewardship_raci.csv`
-- `governance/governance_kpis.csv`
+AI Governance
 
-### Data quality
-- `quality_rules/rules.yml`
-- `quality_rules/checks.py`
-- `data/raw/*.csv`
-- `data/curated/quality_check_results.csv`
-
-### AI governance
-- `ai_governance/ai_use_case_register.csv`
-- `ai_governance/ai_risk_assessment.csv`
-- `ai_governance/model_card_template.md`
-
-### Documentation
-- `docs/architecture.md`
-- `docs/lineage.md`
-- `docs/controls_framework.md`
-
-## Dashboard Preview
-
-### Data Quality
-![Data Quality dashboard](screenshots/data-quality.png)
-
-### Issues
-![Issues dashboard](screenshots/issues.png)
-
-### Assets
-![Assets dashboard](screenshots/assets.png)
-
-### AI Governance
-![AI Governance dashboard](screenshots/ai-governance.png)
-
-## Tech stack
-
-- Python
-- Pandas
-- PyYAML
-- Streamlit
-- Plotly
-- DuckDB
-
-## How to run locally
-
-### 1. Install dependencies
-```bash
+Tech stack
+Python
+Pandas
+PyYAML
+Streamlit
+Plotly
+DuckDB
+How to run locally
+1. Install dependencies
 pip install -r requirements.txt
-```
-
-### 2. Run the quality checks
-```bash
+2. Run the quality checks
 python quality_rules/checks.py
-```
-
-### 3. Launch the dashboard
-```bash
+3. Launch the dashboard
 streamlit run dashboards/app.py
-```
-
-## Example governance questions this project can answer
-
-- Which governed assets are high criticality?
-- Which controls are currently failing?
-- Where are failed rows concentrated?
-- Which issues are still open and who owns them?
-- Which assets have incomplete lineage coverage?
-- Which AI use cases are high risk or still under review?
-
-## Portfolio value
+Example governance questions this project can answer
+Which governed assets are high criticality?
+Which controls are currently failing?
+Where are failed rows concentrated?
+Which issues are still open and who owns them?
+Which assets have incomplete lineage coverage?
+Which AI use cases are high risk or still under review?
+Portfolio value
 
 This project is meant to show practical capability in:
-- data governance
-- data quality management
-- stewardship design
-- governance operations
-- metadata management
-- issue and control monitoring
-- AI governance foundations
 
-## Next enhancements
+data governance
+data quality management
+stewardship design
+governance operations
+metadata management
+issue and control monitoring
+AI governance foundations
+Next enhancements
 
 Planned improvements include:
-- trend analysis over time
-- dashboard filtering
-- screenshot gallery in the README
-- scheduled checks through GitHub Actions
-- richer governance metrics and exception handling
-- expanded AI governance controls mapped to formal frameworks
 
-## Author
+trend analysis over time
+dashboard filtering
+scheduled checks through GitHub Actions
+richer governance metrics and exception handling
+expanded AI governance controls mapped to formal frameworks
+Author
 
 Sima Saadi
 
 This repository is part of a broader portfolio focused on data governance, analytics engineering, reporting controls, and applied AI governance.
-
