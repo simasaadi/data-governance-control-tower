@@ -1,0 +1,9 @@
+﻿check_id,review_area,review_question,status,evidence_required,owner,notes
+PS001,Data Classification,Has the data classification been confirmed?,Open,Classification record,Privacy Lead,
+PS002,Personal Information,Does the use case process personal information?,Open,PII screening,Privacy Lead,
+PS003,Sensitive Data,Does the use case include sensitive or confidential fields?,Open,Field-level review,Data Steward,
+PS004,Access Control,Is access limited to authorized users?,Open,Access list,System Owner,
+PS005,Minimum Necessary,Is the AI tool using only the data needed for the approved purpose?,Open,Data minimization review,Data Governance Lead,
+PS006,Logging,Are prompts, outputs, and actions logged appropriately?,Open,Logging configuration,Security Lead,
+PS007,External Sharing,Will data leave the organization or approved environment?,Open,Architecture or vendor review,Security Lead,
+PS008,Incident Response,Is there an escalation path for privacy or security issues?,Open,Incident response procedure,Privacy Lead,

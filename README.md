@@ -157,3 +157,29 @@ Author
 Sima Saadi
 
 This repository is part of a broader portfolio focused on data governance, analytics engineering, reporting controls, and applied AI governance.
+
+---
+
+## Responsible AI and GenAI Governance Layer
+
+This project has been extended with a responsible AI and generative AI governance module. The module demonstrates how organizations can govern AI use cases through practical operating controls, not just policy statements.
+
+The AI governance layer includes:
+
+- AI use-case intake and approval workflow
+- AI system inventory
+- NIST AI RMF mapping
+- NIST Generative AI Profile mapping
+- Generative AI risk register
+- Data readiness for AI checklist
+- Privacy and security review checklist
+- AI vendor review checklist
+- Model card and AI system card templates
+- Human oversight and escalation SOP
+- AI governance control library
+- RAG governance checklist
+- AI issue and incident log
+- Case study for a service request triage assistant
+
+The purpose is to connect core data governance foundations such as ownership, metadata, lineage, data quality, classification, access control, stewardship, and issue management to current AI governance risks such as hallucination, sensitive data exposure, weak traceability, bias, overreliance, vendor risk, and model monitoring.
+

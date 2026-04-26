@@ -1,0 +1,9 @@
+﻿check_id,category,check_question,why_it_matters,status,evidence_required,owner,notes
+DR001,Data Ownership,Is there a named business owner for the source data?,AI use requires accountable ownership,Pass,Owner listed in data asset register,Data Governance Lead,
+DR002,Data Quality,Are completeness and accuracy checks defined for critical fields?,Poor quality data can create unreliable AI outputs,Partial,Quality rules file or profiling results,Data Steward,
+DR003,Metadata,Are key fields defined in a business glossary or data dictionary?,AI users need consistent interpretation of inputs,Partial,Data dictionary or glossary entry,Metadata Steward,
+DR004,Lineage,Is the source-to-output flow documented?,AI decisions must be traceable,Fail,Lineage diagram or process map,Data Custodian,
+DR005,Classification,Has the data classification been confirmed?,Sensitive data requires stronger controls,Pass,Classification field in asset register,Privacy Lead,
+DR006,Access,Are access permissions appropriate for the AI use case?,AI tools should only use minimum necessary data,Partial,Access review record,System Owner,
+DR007,Retention,Are retention requirements understood for input and output data?,AI outputs may become records or audit evidence,Partial,Retention guidance or records schedule,Records Lead,
+DR008,Quality Monitoring,Is there a plan to monitor output quality over time?,AI quality can change as data and operations change,Fail,Monitoring plan or review schedule,Business Owner,

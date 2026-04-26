@@ -1,0 +1,9 @@
+﻿check_id,review_area,review_question,risk_if_not_reviewed,status,evidence_required,owner
+VR001,Data Use,Does the vendor use customer or organizational data to train its models?,Data may be reused outside approved purpose,Open,Vendor data-use terms,Procurement Lead
+VR002,Hosting,Where is data processed and stored?,Data residency and jurisdiction risk,Open,Hosting location documentation,Security Lead
+VR003,Security,Does the vendor provide security controls and audit documentation?,Cybersecurity exposure,Open,SOC 2 or equivalent evidence,Security Lead
+VR004,Privacy,Can personal data be removed, masked, or excluded?,Privacy breach risk,Open,Privacy impact documentation,Privacy Lead
+VR005,Retention,How long does the vendor retain prompts, inputs, outputs, and logs?,Unapproved retention and records risk,Open,Retention terms,Records Lead
+VR006,Subprocessors,Does the vendor use subprocessors?,Third-party chain risk,Open,Subprocessor list,Procurement Lead
+VR007,Explainability,Can the vendor explain system limitations and output behavior?,Lack of transparency,Open,Model/system documentation,AI Governance Lead
+VR008,Exit,Can data and logs be exported or deleted at contract end?,Vendor lock-in and retention risk,Open,Exit plan,Procurement Lead
