@@ -7,7 +7,6 @@ This policy defines acceptable and prohibited uses of generative AI tools in an 
 ## Acceptable uses
 
 Generative AI may be used to support:
-
 - Drafting non-final internal text
 - Summarizing approved non-sensitive materials
 - Brainstorming analytical approaches
@@ -18,7 +17,6 @@ Generative AI may be used to support:
 ## Prohibited uses
 
 Generative AI must not be used to:
-
 - Enter confidential, personal, sensitive, regulated, or third-party data into unapproved tools
 - Make final operational, legal, financial, employment, eligibility, or service decisions without human review
 - Publish AI-generated content without verification
@@ -27,7 +25,6 @@ Generative AI must not be used to:
 - Generate misleading, discriminatory, harmful, or unsupported outputs
 
 ## Required controls
-
 - Human review before use
 - Source validation for factual claims
 - Data classification check before entering content
@@ -37,3 +34,4 @@ Generative AI must not be used to:
 ## Accountability
 
 Users remain accountable for the outputs they use, share, or approve.
+

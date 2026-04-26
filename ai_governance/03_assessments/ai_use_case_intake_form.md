@@ -1,7 +1,7 @@
 ﻿# AI Use-Case Intake Form
 
-## 1. Use-case summary
-
+##
+1. Use-case summary
 - Use-case name:
 - Business function:
 - Requesting team:
@@ -12,14 +12,15 @@
 - Proposed tool or vendor:
 - Current status:
 
-## 2. Business purpose
+##
+2. Business purpose
 
 Describe the operational or analytical problem the AI use case is intended to support.
 
-## 3. Decision supported
+##
+3. Decision supported
 
 Describe whether the AI system will:
-
 - Generate draft content
 - Recommend an action
 - Classify or prioritize records
@@ -27,14 +28,15 @@ Describe whether the AI system will:
 - Automate a decision
 - Trigger a workflow
 
-## 4. Data sources
+##
+4. Data sources
 
 List all datasets, systems, reports, documents, or repositories used by the AI system.
 
-## 5. Data classification
+##
+5. Data classification
 
 Identify whether the use case involves:
-
 - Public data
 - Internal data
 - Confidential data
@@ -43,10 +45,10 @@ Identify whether the use case involves:
 - Third-party data
 - Regulated data
 
-## 6. Risk screening
+##
+6. Risk screening
 
 Answer yes or no:
-
 - Does the use case affect access to services, benefits, opportunities, or compliance decisions?
 - Does the use case use personal or sensitive information?
 - Does the use case involve external vendors?
@@ -54,8 +56,8 @@ Answer yes or no:
 - Is the AI output visible to the public?
 - Could users over-rely on the output?
 
-## 7. Required reviews
-
+##
+7. Required reviews
 - Data governance review:
 - Privacy review:
 - Security review:
@@ -63,13 +65,15 @@ Answer yes or no:
 - Bias/fairness review:
 - Business owner approval:
 
-## 8. Approval decision
-
+##
+8. Approval decision
 - Approved
 - Conditionally approved
 - Deferred
 - Rejected
 
-## 9. Approval conditions
+##
+9. Approval conditions
 
 Document any required controls before implementation.
+

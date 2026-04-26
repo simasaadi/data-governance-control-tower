@@ -5,3 +5,4 @@ ARA003,AI001,Human Oversight,Is human review required before action?,Yes,Medium,
 ARA004,AI002,Traceability,Can generated commentary be traced to source data?,Partially,Medium,Yes,Require source references in output,BI Manager,Open
 ARA005,AI004,Privacy,Does the use case involve personal or sensitive information?,Yes,High,Yes,Complete privacy review and de-identification plan,Privacy Lead,Open
 ARA006,AI004,Vendor Risk,Will an external vendor process organizational data?,Yes,High,Yes,Complete vendor security and data-use review,Procurement Lead,Open
+

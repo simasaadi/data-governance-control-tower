@@ -2,3 +2,4 @@
 AII001,2026-04-15,BI Analyst,Executive KPI Narrative Generator,Incorrect Output,Medium,Generated commentary overstated month-over-month improvement,KPI commentary,BI Manager,Open,Prompt did not require source comparison,Revise prompt and require source validation,
 AII002,2026-04-18,Data Steward,Service Request Triage Assistant,Classification Error,Medium,AI suggested incorrect service category for a complex request,Service request category,Operations Manager,Open,Training examples did not include edge case,Add review examples and update guidance,
 AII003,2026-04-20,Privacy Lead,Customer Complaint Theme Extractor,Privacy Risk,High,Complaint notes included personal identifiers before vendor review,Complaint text,Customer Service Manager,Open,De-identification step missing,Pause use case and complete privacy review,
+

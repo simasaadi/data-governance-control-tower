@@ -7,3 +7,4 @@ PS005,Minimum Necessary,Is the AI tool using only the data needed for the approv
 PS006,Logging,Are prompts, outputs, and actions logged appropriately?,Open,Logging configuration,Security Lead,
 PS007,External Sharing,Will data leave the organization or approved environment?,Open,Architecture or vendor review,Security Lead,
 PS008,Incident Response,Is there an escalation path for privacy or security issues?,Open,Incident response procedure,Privacy Lead,
+

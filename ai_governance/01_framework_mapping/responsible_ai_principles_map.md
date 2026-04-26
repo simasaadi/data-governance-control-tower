@@ -10,3 +10,4 @@
 | Security | AI tools and vendors are reviewed for cyber, access, and misuse risks | Vendor review checklist; prompt controls |
 | Human oversight | People remain accountable for decisions and review outputs before action | Human oversight SOP |
 | Traceability | Inputs, outputs, decisions, and sources can be reviewed and audited | System inventory; model card; RAG checklist |
+

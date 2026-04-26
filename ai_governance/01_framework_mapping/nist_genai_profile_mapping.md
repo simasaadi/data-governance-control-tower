@@ -18,3 +18,4 @@ This document maps common generative AI risks to practical governance controls.
 ## Practical use
 
 This mapping is designed to help governance, privacy, analytics, and risk teams translate generative AI risks into operating controls, review steps, and monitoring practices.
+

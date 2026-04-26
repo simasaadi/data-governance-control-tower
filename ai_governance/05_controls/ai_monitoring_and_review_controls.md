@@ -18,7 +18,6 @@ This document defines monitoring controls for AI use cases after approval.
 | Scope | Is the AI use still within the approved purpose? | Use-case review |
 
 ## Review frequency
-
 - Low risk: Annual
 - Medium risk: Quarterly
 - High risk: Monthly or before each major release
@@ -26,3 +25,4 @@ This document defines monitoring controls for AI use cases after approval.
 ## Escalation
 
 Material issues should be logged in the AI issue and incident log and escalated to the business owner, data steward, privacy/security lead, and AI governance lead as appropriate.
+

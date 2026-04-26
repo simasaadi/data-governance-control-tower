@@ -1,4 +1,4 @@
-assessment_id,use_case_id,risk_dimension,risk_rating,control_summary,assessment_status,review_owner
+﻿assessment_id,use_case_id,risk_dimension,risk_rating,control_summary,assessment_status,review_owner
 AIR001,AI001,Data Sensitivity,Medium,Use only approved internal fields and exclude direct personal identifiers,Open,Security and Privacy Lead
 AIR002,AI001,Human Oversight,Low,Final categorization remains with staff reviewer before action,Open,Service Operations Manager
 AIR003,AI002,Bias and Fairness,High,Review scoring logic regularly and test for systematic skew across work types,Open,Asset Management Manager
@@ -6,3 +6,4 @@ AIR004,AI002,Explainability,High,Require documented feature logic and reviewer-r
 AIR005,AI003,Output Reliability,Medium,Human review required before publishing generated commentary,Open,BI Manager
 AIR006,AI004,Operational Impact,High,Alerts are advisory only and must be validated before route intervention,Open,Collection Operations Manager
 AIR007,AI004,Auditability,Medium,Log flagged events and final reviewer disposition for traceability,Open,Data Custodian
+

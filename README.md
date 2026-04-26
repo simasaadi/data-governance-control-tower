@@ -1,4 +1,4 @@
-# Data Governance Control Tower
+﻿# Data Governance Control Tower
 
 [![Open Live Dashboard](https://img.shields.io/badge/Open-Live_Dashboard-blue?style=for-the-badge)](https://sima-governance-tower.streamlit.app)
 
@@ -70,8 +70,8 @@ Shows:
 ```text
 data-governance-control-tower/
 +-- data/
-¦   +-- raw/
-¦   +-- curated/
+Â¦   +-- raw/
+Â¦   +-- curated/
 +-- metadata/
 +-- quality_rules/
 +-- governance/
@@ -142,7 +142,7 @@ stewardship design
 governance operations
 metadata management
 issue and control monitoring
-AI governance foundations
+Responsible AI and GenAI governance operations
 Next enhancements
 
 Planned improvements include:
@@ -151,7 +151,7 @@ trend analysis over time
 dashboard filtering
 scheduled checks through GitHub Actions
 richer governance metrics and exception handling
-expanded AI governance controls mapped to formal frameworks
+dashboard integration for AI risk monitoring, GenAI controls, and responsible AI governance KPIs
 Author
 
 Sima Saadi
@@ -179,4 +179,5 @@ The AI governance layer includes:
 - Responsible AI control library
 
 The purpose is to connect core data governance foundations such as ownership, metadata, lineage, data quality, classification, access control, stewardship, and issue management to current AI governance risks such as hallucination, sensitive data exposure, weak traceability, bias, overreliance, vendor risk, and model monitoring.
+
 

@@ -7,3 +7,4 @@ DR005,Classification,Has the data classification been confirmed?,Sensitive data 
 DR006,Access,Are access permissions appropriate for the AI use case?,AI tools should only use minimum necessary data,Partial,Access review record,System Owner,
 DR007,Retention,Are retention requirements understood for input and output data?,AI outputs may become records or audit evidence,Partial,Retention guidance or records schedule,Records Lead,
 DR008,Quality Monitoring,Is there a plan to monitor output quality over time?,AI quality can change as data and operations change,Fail,Monitoring plan or review schedule,Business Owner,
+

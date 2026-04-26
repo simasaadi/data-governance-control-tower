@@ -13,7 +13,6 @@ List the data that may be included in prompts.
 List data that must not be entered into prompts, including confidential, personal, sensitive, or unapproved third-party data.
 
 ## Required Prompt Elements
-
 - Task instruction
 - Source reference requirement
 - Output format
@@ -21,7 +20,6 @@ List data that must not be entered into prompts, including confidential, persona
 - Human review reminder
 
 ## Required Output Checks
-
 - Accuracy check
 - Source traceability check
 - Sensitive data check
@@ -39,3 +37,4 @@ Provide a prohibited prompt pattern.
 ## Review Owner
 
 ## Review Frequency
+

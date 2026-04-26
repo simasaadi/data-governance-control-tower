@@ -3,3 +3,4 @@ AIS001,Service Request Triage Assistant,Generative AI,Operations,Draft service r
 AIS002,Executive KPI Narrative Generator,Generative AI,Performance Reporting,Draft dashboard commentary,BI Manager,Reporting Data Steward,KPI tables; dashboard metadata,Internal,No,Internal Sandbox,None,Pilot,2026-04-10,2026-05-10,Source validation; reviewer sign-off
 AIS003,Data Quality Anomaly Prioritizer,Machine Learning,Data Quality,Prioritize unusual data quality issues,Data Governance Lead,Data Quality Steward,Data quality logs; issue history,Confidential,No,Internal,None,Approved,2026-03-20,2026-06-20,Quarterly monitoring; steward review
 AIS004,Customer Complaint Theme Extractor,NLP,Customer Service,Identify complaint themes,Customer Service Manager,Customer Data Steward,Complaint notes; service categories,Confidential,Yes,Vendor Cloud,Vendor NLP Tool,Not Approved,2026-04-12,2026-07-12,Privacy redesign required
+

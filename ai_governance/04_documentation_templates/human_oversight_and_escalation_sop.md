@@ -7,7 +7,6 @@ This SOP defines when human review is required for AI-supported outputs and how 
 ## When human review is required
 
 Human review is required when AI output:
-
 - Supports operational decisions
 - Supports service routing, prioritization, or eligibility
 - Uses confidential, personal, or sensitive data
@@ -16,7 +15,6 @@ Human review is required when AI output:
 - May affect service quality, compliance, or public trust
 
 ## Minimum review steps
-
 1. Confirm the output is aligned with the approved use case.
 2. Check source data and assumptions.
 3. Confirm no sensitive or prohibited information is included.
@@ -27,7 +25,6 @@ Human review is required when AI output:
 ## Escalation triggers
 
 Escalate when:
-
 - AI output is materially incorrect
 - Sensitive data is exposed
 - The system produces biased or unfair output
@@ -36,7 +33,6 @@ Escalate when:
 - The same issue appears repeatedly
 
 ## Escalation path
-
 1. User or analyst reports issue.
 2. Business owner reviews operational impact.
 3. Data steward reviews data quality or metadata issue.
@@ -47,3 +43,4 @@ Escalate when:
 ## Records
 
 All material AI issues should be recorded in the AI issue and incident log.
+

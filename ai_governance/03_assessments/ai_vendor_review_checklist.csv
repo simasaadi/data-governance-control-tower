@@ -7,3 +7,4 @@ VR005,Retention,How long does the vendor retain prompts, inputs, outputs, and lo
 VR006,Subprocessors,Does the vendor use subprocessors?,Third-party chain risk,Open,Subprocessor list,Procurement Lead
 VR007,Explainability,Can the vendor explain system limitations and output behavior?,Lack of transparency,Open,Model/system documentation,AI Governance Lead
 VR008,Exit,Can data and logs be exported or deleted at contract end?,Vendor lock-in and retention risk,Open,Exit plan,Procurement Lead
+

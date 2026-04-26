@@ -1,5 +1,6 @@
-use_case_id,use_case_name,business_function,ai_type,description,data_classification,human_in_the_loop,risk_level,status,owner
+﻿use_case_id,use_case_name,business_function,ai_type,description,data_classification,human_in_the_loop,risk_level,status,owner
 AI001,Service Request Triage Assistant,Operations,Generative AI,Drafts suggested categories and response summaries for incoming service requests,Internal,Yes,Medium,Proposed,Manager Service Operations
 AI002,Work Order Priority Scoring,Asset Management,Predictive ML,Scores work orders for likely urgency based on historical patterns,Internal,Yes,High,In Review,Manager Asset Management
 AI003,Dashboard Narrative Generator,Reporting,Generative AI,Generates first-draft KPI commentary for monthly reporting packs,Public,Yes,Low,Approved,Manager Performance and Reporting
 AI004,Route Exception Detection,Operations,Anomaly Detection,Flags unusual route execution patterns for review,Confidential,Yes,High,In Review,Manager Collection Operations
+

@@ -25,7 +25,6 @@
 ## Decision Supported
 
 ## Automation Level
-
 - Draft only
 - Recommendation only
 - Human-approved action
@@ -37,7 +36,6 @@
 ## Required Controls
 
 ## Review Requirements
-
 - Data governance review
 - Privacy review
 - Security review
@@ -52,3 +50,4 @@
 ## Approval Decision
 
 ## Approval Conditions
+

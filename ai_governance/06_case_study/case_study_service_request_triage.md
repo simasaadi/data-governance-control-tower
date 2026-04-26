@@ -13,7 +13,6 @@ Can this AI use case be approved for controlled internal use?
 The use case may reduce manual triage time, improve consistency in service categorization, and help staff respond more quickly to recurring request types.
 
 ## Key risks
-
 - Hallucinated or inaccurate categorization
 - Sensitive information exposure
 - Overreliance by staff
@@ -22,7 +21,6 @@ The use case may reduce manual triage time, improve consistency in service categ
 - Lack of source traceability
 
 ## Required controls
-
 - Human review before action
 - No direct personal identifiers in prompts
 - Approved source fields only
@@ -54,3 +52,4 @@ The use case may proceed only if human review remains mandatory, sensitive data 
 ## Governance recommendation
 
 This use case should not move to production until lineage documentation, prompt controls, privacy review, and monthly monitoring procedures are complete.
+

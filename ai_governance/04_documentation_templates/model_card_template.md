@@ -55,7 +55,6 @@ Describe where human review is required before action or publication.
 Document review frequency, owner, metrics, and escalation triggers.
 
 ## Approval Status
-
 - Approved
 - Conditionally approved
 - Deferred
@@ -64,3 +63,4 @@ Document review frequency, owner, metrics, and escalation triggers.
 ## Approval Conditions
 
 Document required controls or limitations.
+

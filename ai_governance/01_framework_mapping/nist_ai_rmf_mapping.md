@@ -7,7 +7,6 @@ This document maps the control tower artifacts to the NIST AI Risk Management Fr
 The Govern function establishes accountability, policies, roles, responsibilities, and risk management structures.
 
 Relevant artifacts in this repository:
-
 - AI governance control library
 - AI use-case intake form
 - AI system inventory
@@ -21,7 +20,6 @@ Relevant artifacts in this repository:
 The Map function identifies the context, intended purpose, users, data sources, risks, and affected stakeholders.
 
 Relevant artifacts in this repository:
-
 - AI use-case register
 - AI use-case intake form
 - Data readiness for AI checklist
@@ -34,7 +32,6 @@ Relevant artifacts in this repository:
 The Measure function evaluates, analyzes, and tracks AI risks and performance.
 
 Relevant artifacts in this repository:
-
 - AI risk assessment
 - GenAI risk register
 - Data quality controls
@@ -47,7 +44,6 @@ Relevant artifacts in this repository:
 The Manage function prioritizes, responds to, and monitors risks over time.
 
 Relevant artifacts in this repository:
-
 - AI issue and incident log
 - Risk treatment actions
 - Human oversight and escalation SOP
@@ -58,3 +54,4 @@ Relevant artifacts in this repository:
 ## Data governance connection
 
 Responsible AI governance depends on strong data governance. AI systems require clear data ownership, reliable source data, documented metadata, traceable lineage, data classification, access controls, issue escalation, and ongoing review.
+
