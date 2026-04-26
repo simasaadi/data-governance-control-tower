@@ -4,7 +4,7 @@
 
 **Live app:** https://sima-governance-tower.streamlit.app
 
-An operational data governance portfolio project that demonstrates how governance can be translated into concrete controls, measurable KPIs, stewardship structures, issue management workflows, and a lightweight AI governance layer.
+An operational data governance and responsible AI control tower that demonstrates how governance can be translated into concrete controls, measurable KPIs, stewardship structures, issue management workflows, access governance, data quality monitoring, AI use-case intake, GenAI risk management, data readiness review, model documentation, and executive dashboarding.
 
 ## Dashboard Snapshot
 
@@ -70,8 +70,8 @@ Shows:
 ```text
 data-governance-control-tower/
 +-- data/
-¦   +-- raw/
-¦   +-- curated/
+Â¦   +-- raw/
+Â¦   +-- curated/
 +-- metadata/
 +-- quality_rules/
 +-- governance/
@@ -168,18 +168,15 @@ The AI governance layer includes:
 
 - AI use-case intake and approval workflow
 - AI system inventory
-- NIST AI RMF mapping
-- NIST Generative AI Profile mapping
+- AI risk assessment mapped to governance controls
+- NIST AI RMF and NIST Generative AI Profile mapping
 - Generative AI risk register
 - Data readiness for AI checklist
-- Privacy and security review checklist
-- AI vendor review checklist
-- Model card and AI system card templates
+- Privacy, security, and vendor review checklists
+- Model card and AI system documentation templates
 - Human oversight and escalation SOP
-- AI governance control library
-- RAG governance checklist
 - AI issue and incident log
-- Case study for a service request triage assistant
+- Responsible AI control library
 
 The purpose is to connect core data governance foundations such as ownership, metadata, lineage, data quality, classification, access control, stewardship, and issue management to current AI governance risks such as hallucination, sensitive data exposure, weak traceability, bias, overreliance, vendor risk, and model monitoring.
 
