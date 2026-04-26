@@ -1,0 +1,11 @@
+﻿control_id,control_domain,control_name,control_description,control_type,owner,evidence
+AIC001,Governance,AI Use-Case Registration,All AI use cases must be registered before pilot or production use,Preventive,AI Governance Lead,AI use-case register
+AIC002,Governance,Named Business Owner,Each AI use case must have an accountable business owner,Preventive,Executive Sponsor,AI system inventory
+AIC003,Data Governance,Data Readiness Review,Source data must be reviewed for ownership quality metadata lineage classification and access,Preventive,Data Governance Lead,Data readiness checklist
+AIC004,Privacy,Privacy Screening,AI use cases involving personal data require privacy review,Preventive,Privacy Lead,Privacy/security checklist
+AIC005,Security,Security Review,AI tools must be reviewed for access logging hosting and misuse risks,Preventive,Security Lead,Security checklist
+AIC006,Vendor Governance,Vendor AI Review,Third-party AI tools must be reviewed for data use retention subprocessors and security,Preventive,Procurement Lead,Vendor checklist
+AIC007,Human Oversight,Human Review Requirement,High or medium risk AI outputs require human review before action,Preventive,Business Owner,Human oversight SOP
+AIC008,Monitoring,Output Quality Sampling,AI outputs must be sampled and checked against source data or business rules,Detective,Data Steward,Monitoring review log
+AIC009,Incident Management,AI Issue Logging,Material AI errors privacy issues or misuse events must be logged and assigned,Corrective,AI Governance Lead,AI issue log
+AIC010,Documentation,Model/System Card,AI systems must have documentation of purpose data sources limitations risks and controls,Preventive,System Owner,Model card or system card
